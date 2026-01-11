@@ -203,4 +203,5 @@ async def handle_play(interaction: discord.Interaction, url: str):
 
 
 
-bot.run(os.getenv('MTQ1NDcwNzQzODI0MTcxMDIxNw.Gx7TIW.PAy5PUMocaOWs6kqOx-_zmbvHtL5Ewn6XgfzIo'))  
+bot.run(os.getenv('TOKEN'))  
+
