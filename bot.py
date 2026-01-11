@@ -16,7 +16,6 @@ bot = commands.Bot(command_prefix='!', intents=intents.default())
 queue = []
 is_loop = False
 
-TOKEN = ('MTQ1NDcwNzQzODI0MTcxMDIxNw.Gx7TIW.PAy5PUMocaOWs6kqOx-_zmbvHtL5Ewn6XgfzIo')
 music_queues = {}  # guild_id -> [url, ...]
 loop_status = {}   # guild_id -> True/False
 stop_flag = {}     # guild_id -> True/False
@@ -204,4 +203,5 @@ async def handle_play(interaction: discord.Interaction, url: str):
 
 
 bot.run(os.getenv('TOKEN'))  
+
 
